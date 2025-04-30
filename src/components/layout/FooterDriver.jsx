@@ -25,7 +25,7 @@ const FooterDriver = () => {
            </div>
         </div>
         <div className="mt-6 pt-6 border-t border-border/60 text-center text-xs text-muted-foreground">
-          © {currentYear} Motorista Paulo Arruda. Todos os direitos reservados.
+          © {currentYear} <a href='www.lrb.dev.br'>lrb dev</a> Todos os direitos reservados.
         </div>
       </div>
     </footer>
