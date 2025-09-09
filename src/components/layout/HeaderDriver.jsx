@@ -1,11 +1,10 @@
 
-import React from 'react';
-import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import { motion } from 'framer-motion';
 import { Phone } from 'lucide-react';
 
 const HeaderDriver = () => {
-  const logoUrl = "https://storage.googleapis.com/hostinger-horizons-assets-prod/2162f455-1db9-431b-b7ea-f75fd3708b72/369636e0c6d1db169441a4c32aad5548.png";
+  const logoUrl = "/logo.jpg"; // Ensure this path is correct
   const whatsappNumber = "5515996709113"; // Formatted for WhatsApp link
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Olá Paulo, gostaria de solicitar um orçamento.")}`;
 

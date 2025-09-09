@@ -1,10 +1,9 @@
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { MapPin, Send } from 'lucide-react';
-import React from 'react';
 
 const HeroDriver = () => {
-  const logoUrl = "/up.webp"; // URL of the logo image
+  const logoUrl = "/onix.png"; // URL of the logo image
   const whatsappNumber = "5515996709113"; // Formatted for WhatsApp link
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Olá Paulo, gostaria de solicitar um orçamento.")}`;
 
